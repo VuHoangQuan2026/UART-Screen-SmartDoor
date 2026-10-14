@@ -1,4 +1,4 @@
-# 🚪 Smart Door Control Panel (UART Screen)
+# Smart Door Control Panel (UART Screen)
 
 Ứng dụng điều khiển và giám sát hệ thống cửa thông minh qua giao tiếp Serial/UART, được phát triển bằng ngôn ngữ Python với giao diện đồ họa Tkinter theo mô hình kiến trúc Hướng đối tượng (OOP).
 
@@ -6,7 +6,7 @@
 
 ## 1. Giới thiệu
 
-**Smart Door Control Panel** là phần mềm máy tính (Desktop App) kết nối trực tiếp với các hệ thống nhúng/vi điều khiển (như STM32, Arduino) để quản lý vận hành cửa tự động. 
+**Smart Door Control Panel** là phần mềm máy tính (Desktop App) kết nối trực tiếp với các hệ thống nhúng/vi điều khiển để quản lý vận hành cửa tự động. 
 
 Các tính năng nổi bật:
 * Quản lý kết nối UART linh hoạt, tự động dò tìm cổng COM.
@@ -73,7 +73,7 @@ Các lệnh truyền từ ứng dụng xuống mạch điều khiển khi ngư�
 
 ---
 
-## 📥 6. Dữ liệu phản hồi (Vi điều khiển ➔ PC)
+## 6. Dữ liệu phản hồi (Vi điều khiển ➔ PC)
 
 Các chuỗi tín hiệu vi điều khiển gửi về để ứng dụng cập nhật thông tin lên màn hình:
 
@@ -100,7 +100,7 @@ Các chuỗi tín hiệu vi điều khiển gửi về để ứng dụng cập 
 ## 7. Hướng dẫn sử dụng
 
 ### Bước 1: Kết nối phần cứng
-1. Nối mạch vi điều khiển (STM32/Arduino) với mạch chuyển đổi USB to UART (CP2102, CH340,...).
+1. Nối mạch vi điều khiển STM32 với mạch chuyển đổi USB to UART.
 2. Đấu nối đúng chân:
    * **TXD** (USB to UART) ➔ **RX** (Vi điều khiển)
    * **RXD** (USB to UART) ➔ **TX** (Vi điều khiển)
